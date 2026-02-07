@@ -3,7 +3,7 @@ plugins {
 }
 
 tasks.register('buildPack', Zip) {
-    archiveFileName = "releases/MaestroOverture.zip"
+    archiveFileName = "releases/Maestro-Overture.zip"
     destinationDirectory = projectDir
 
     from(projectDir) {
